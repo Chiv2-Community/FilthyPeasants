@@ -2,14 +2,15 @@
     "repo_url": "https://github.com/Chiv2-Community/FilthyPeasants",
     "name": "Filthy Peasants",
     "description": "Replaces all regular spawns with peasantry.\n\nUsage:\nopen agmods?map=ffa_wardenglade?mods=FilthyPeasants",
-    "mod_type": "Shared",
+    "mod_type": "Server",
     "authors": [ "Nihi" ],
     "dependencies": [
       {
         "repo_url": "https://github.com/Chiv2-Community/ArgonSDK-Mods",
-        "version": "v0.0.1"
+        "version": ">=0.0.1"
       }
     ],
-    "tags": [ "Server" ]
+    "ag_mod": true,
+    "tags": [ "Mutator" ]
   }
       
